@@ -8,7 +8,7 @@ while ( have_posts() ) :
 ?>
 
 <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mb-5">
         <div class="col-md-7 col-lg-4 mb-5 mb-lg-0 wow fadeIn">
             <div class="card border-0 shadow">
                 <img src="<?= wp_get_attachment_url(get_post_thumbnail_id($post->ID), 'thumbnail'); ?>">
